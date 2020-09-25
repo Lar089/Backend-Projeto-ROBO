@@ -1,17 +1,19 @@
 package com.project.state.arm;
 
 public enum Elbow {
-	IN_REST("Em Repouso"), SLIGHTLY_CONTRACTED("Levemente Contraído"), 
-	CONTRACTED("Contraído"), STRONGLY_CONTRACTED("Fortemente Contraído");
+	IN_REST(0,"Em Repouso"), SLIGHTLY_CONTRACTED(1,"Levemente Contraído"), 
+	CONTRACTED(2,"Contraído"), STRONGLY_CONTRACTED(3,"Fortemente Contraído");
 	
+	private int id_final;
 	private String state_final;
 	
-	Elbow(String lState){
+	Elbow(int lId, String lState){
+		id_final = lId;
 		state_final = lState;
 	}
 	
-	public String getState() {
-		return state_final;
+	public int getId() {
+		return id_final;
 	}
 
 }
