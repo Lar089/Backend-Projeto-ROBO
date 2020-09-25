@@ -1,8 +1,8 @@
-package com.apirest.model;
+package com.project.model;
 
 public class Arm {
-	private String elbow;
-	private String pulse;
+	private String elbow = getElbow();
+	private String pulse = getPulse();
 	
 	public Arm() {
 		super();

@@ -1,4 +1,4 @@
-package com.apirest.state;
+package com.project.state.arm;
 
 public enum Pulse {
 	

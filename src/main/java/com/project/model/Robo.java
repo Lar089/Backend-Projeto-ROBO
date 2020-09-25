@@ -1,4 +1,4 @@
-package com.apirest.model;
+package com.project.model;
 
 public class Robo {
 	private Head head;

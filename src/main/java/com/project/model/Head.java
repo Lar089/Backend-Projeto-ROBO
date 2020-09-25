@@ -1,8 +1,8 @@
-package com.apirest.model;
+package com.project.model;
 
 public class Head {
-	private String rotation;
-	private String slope;
+	private String rotation = getRotation();
+	private String slope = getSlope();
 	
 	public Head() {
 		super();
