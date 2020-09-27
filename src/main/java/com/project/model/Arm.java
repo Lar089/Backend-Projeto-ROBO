@@ -1,26 +1,39 @@
 package com.project.model;
 
+import com.project.state.arm.Elbow;
+import com.project.state.arm.Pulse;
+
 public class Arm {
-	private String elbow;
-	private String pulse;
+	private int elbow = Elbow.IN_REST.getId();
+	private int pulse = Pulse.IN_REST.getID();
 	
 	public Arm() {
 		super();
 	}
 
-	public Arm(String elbow, String pulse) {
+	public Arm(int elbow, int pulse) {
 		super();
 		this.elbow = elbow;
 		this.pulse = pulse;
 	}
 
-	public String getElbow() {
+	public int getElbow() {
 		return elbow;
 	}
 
-	public String getPulse() {
+	public void setElbow(int elbow) {
+		this.elbow = elbow;
+	}
+
+	public int getPulse() {
 		return pulse;
 	}
+
+	public void setPulse(int pulse) {
+		this.pulse = pulse;
+	}
+
+	
 	
 	
 }

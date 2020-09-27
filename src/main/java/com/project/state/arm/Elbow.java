@@ -15,5 +15,10 @@ public enum Elbow {
 	public int getId() {
 		return id_final;
 	}
+	
+	public int getIdValid() {
+		return STRONGLY_CONTRACTED.getId();
+	}
+	
 
 }

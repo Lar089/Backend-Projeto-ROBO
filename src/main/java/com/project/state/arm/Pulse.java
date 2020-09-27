@@ -18,4 +18,5 @@ public enum Pulse {
 	public int getID() {
 		return id_final;
 	}
+	
 }

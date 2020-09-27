@@ -13,9 +13,12 @@ public enum Slope {
 		id_final = lId;
 	}
 	
-	public int getID() {
+	public int getId() {
 		return id_final;
 	}
 	
-
+	public int getIdInvalid() {
+		return DOWN.getId();
+	}
+	
 }
