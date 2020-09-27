@@ -16,6 +16,10 @@ public enum Elbow {
 		return id_final;
 	}
 	
+	public String getState_final() {
+		return state_final;
+	}
+
 	public int getIdValid() {
 		return STRONGLY_CONTRACTED.getId();
 	}

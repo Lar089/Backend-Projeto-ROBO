@@ -4,7 +4,7 @@ import com.project.state.head.Rotation;
 import com.project.state.head.Slope;
 
 public class Head {
-	private int rotation = Rotation.IN_REST.getID();
+	private int rotation = Rotation.IN_REST.getId();
 	private int slope = Slope.IN_REST.getId();
 	
 	public Head() {

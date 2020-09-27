@@ -5,7 +5,7 @@ import com.project.state.arm.Pulse;
 
 public class Arm {
 	private int elbow = Elbow.IN_REST.getId();
-	private int pulse = Pulse.IN_REST.getID();
+	private int pulse = Pulse.IN_REST.getId();
 	
 	public Arm() {
 		super();

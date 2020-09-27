@@ -20,16 +20,16 @@ public class Restriction {
 	
 	public boolean movementInvalid(int idMax, int idObject) {
 		if (idMax < idObject || idObject < 0) {
-			return true;
-		} else {
 			return false;
+		} else {
+			return true;
 		}
 		
 	}
 	
 	public boolean nextMovement(int idOldState, int idNewState) {
-		if (idNewState < idOldState  + 1 || 
-				idNewState < idOldState - 1 || 
+		if (idNewState == (idOldState + 1) || 
+				idNewState == (idOldState - 1) || 
 				idNewState == idOldState) {
 			return true;
 		} else {

@@ -17,6 +17,10 @@ public enum Slope {
 		return id_final;
 	}
 	
+	public String getState_final() {
+		return state_final;
+	}
+	
 	public int getIdInvalid() {
 		return DOWN.getId();
 	}

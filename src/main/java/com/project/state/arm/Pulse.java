@@ -15,8 +15,17 @@ public enum Pulse {
 		id_final = lId;
 	}
 	
-	public int getID() {
+	public int getId() {
 		return id_final;
 	}
+	
+	public String getState_final() {
+		return state_final;
+	}
+	
+	public int getIdInvalid() {
+		return ROTATION_180.getId();
+	}
+	
 	
 }
