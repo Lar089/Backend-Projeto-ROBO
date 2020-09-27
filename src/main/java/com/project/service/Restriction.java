@@ -4,9 +4,9 @@ package com.project.service;
  * 
  * @author Caroline
  * O estado inicial dos movimentos é Em Repouso. (ok)
- * Só poderá movimentar o Pulso caso o Cotovelo esteja Fortemente Contraído.
+ * Só poderá movimentar o Pulso caso o Cotovelo esteja Fortemente Contraído.(ok)
  * Só poderá Rotacionar a Cabeça caso sua Inclinação da Cabeça não esteja em
-estado Para Baixo. 
+estado Para Baixo. (ok)
 *Ao realizar a progressão de estados, é necessário que sempre siga a ordem
 crescente ou decrescente, por exemplo, a partir do estado 4, pode-se ir para
 os estados 3 ou 5, nunca pulando um estado. (ok)
@@ -38,7 +38,7 @@ public class Restriction {
 		
 	}
 	
-	public boolean movementRotation(int idValid, int idObject) {
+	public boolean movementPulse(int idValid, int idObject) {
 		if (idObject == idValid) {
 			return true;
 		} else {
@@ -47,7 +47,7 @@ public class Restriction {
 		
 	}
 	
-	public boolean movementSlope(int idValid, int idObject) {
+	public boolean movementRotation(int idValid, int idObject) {
 		if (idObject != idValid) {
 			return true;
 		} else {
