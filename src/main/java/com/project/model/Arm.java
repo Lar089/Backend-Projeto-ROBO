@@ -1,8 +1,8 @@
 package com.project.model;
 
 public class Arm {
-	private String elbow = getElbow();
-	private String pulse = getPulse();
+	private String elbow;
+	private String pulse;
 	
 	public Arm() {
 		super();
