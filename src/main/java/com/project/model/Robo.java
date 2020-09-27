@@ -1,8 +1,13 @@
 package com.project.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Robo {
+	@JsonProperty(value = "Head")
 	private Head head;
+	@JsonProperty(value = "arm_right")
 	private Arm arm_right;
+	@JsonProperty(value = "arm_left")
 	private Arm arm_left;
 	
 	public Robo() {

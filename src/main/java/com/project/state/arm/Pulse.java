@@ -23,7 +23,7 @@ public enum Pulse {
 		return state_final;
 	}
 	
-	public int getIdInvalid() {
+	public static int getIdInvalid() {
 		return ROTATION_180.getId();
 	}
 	

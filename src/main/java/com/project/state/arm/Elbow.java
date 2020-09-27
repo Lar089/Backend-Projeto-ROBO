@@ -20,7 +20,7 @@ public enum Elbow {
 		return state_final;
 	}
 
-	public int getIdValid() {
+	public static int getIdValid() {
 		return STRONGLY_CONTRACTED.getId();
 	}
 	

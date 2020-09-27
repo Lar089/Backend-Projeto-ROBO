@@ -22,7 +22,7 @@ public enum Rotation {
 		return state_final;
 	}
 	
-	public int getIdInvalid() {
+	public static int getIdInvalid() {
 		return ROTATION_90_POSITIVE.getId();
 	}
 	

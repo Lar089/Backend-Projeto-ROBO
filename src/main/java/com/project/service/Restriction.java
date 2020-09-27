@@ -1,5 +1,7 @@
 package com.project.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 
  * @author Caroline
@@ -15,6 +17,7 @@ sistema do R.O.B.O.
  *
  */
 
+@Service
 public class Restriction {
 	
 	
