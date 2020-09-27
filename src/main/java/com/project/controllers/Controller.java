@@ -52,7 +52,8 @@ public class Controller {
 			}
 		} else {
 			Message.ERROR.getMessage();
-		}	
+		}
+		Message.TRY_AGAIN.getMessage();
 		return head;
 	}
 	
